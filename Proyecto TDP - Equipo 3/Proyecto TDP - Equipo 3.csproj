@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41359F12-C710-4D6B-9202-9AF93DD2772A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_TDP___Equipo_3</RootNamespace>
+    <AssemblyName>Proyecto TDP - Equipo 3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="reciente2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reciente2.Designer.cs">
+      <DependentUpon>reciente2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hombre2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hombre2.Designer.cs">
+      <DependentUpon>Hombre2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indice.Designer.cs">
+      <DependentUpon>Indice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mujer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mujer2.Designer.cs">
+      <DependentUpon>Mujer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Munu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Munu2.Designer.cs">
+      <DependentUpon>Munu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Niños2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Niños2.Designer.cs">
+      <DependentUpon>Niños2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reciente.Designer.cs">
+      <DependentUpon>reciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tendencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tendencias.Designer.cs">
+      <DependentUpon>Tendencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tendencias2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tendencias2.Designer.cs">
+      <DependentUpon>Tendencias2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vendido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendido.Designer.cs">
+      <DependentUpon>vendido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hombre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hombre.Designer.cs">
+      <DependentUpon>Hombre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mujer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mujer.Designer.cs">
+      <DependentUpon>Mujer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muestra productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muestra productos.designer.cs">
+      <DependentUpon>Muestra productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Niños.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Niños.Designer.cs">
+      <DependentUpon>Niños.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuarioinicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarioinicio.designer.cs">
+      <DependentUpon>Usuarioinicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vendido2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendido2.Designer.cs">
+      <DependentUpon>vendido2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="reciente2.resx">
+      <DependentUpon>reciente2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hombre2.resx">
+      <DependentUpon>Hombre2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indice.resx">
+      <DependentUpon>Indice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mujer2.resx">
+      <DependentUpon>Mujer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Munu2.resx">
+      <DependentUpon>Munu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niños2.resx">
+      <DependentUpon>Niños2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reciente.resx">
+      <DependentUpon>reciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tendencias.resx">
+      <DependentUpon>Tendencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tendencias2.resx">
+      <DependentUpon>Tendencias2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendido.resx">
+      <DependentUpon>vendido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hombre.resx">
+      <DependentUpon>Hombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muestra productos.resx">
+      <DependentUpon>Muestra productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mujer.resx">
+      <DependentUpon>Mujer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niños.resx">
+      <DependentUpon>Niños.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Usuarioinicio.resx">
+      <DependentUpon>Usuarioinicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendido2.resx">
+      <DependentUpon>vendido2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\MiTiendaOnline.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\pngtree-horizontal-vector-halloween-banner-background-with-grunge-border-image_297712.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\banner_background_by_anwarkurnain_dcl322r-fullview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\usuario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d5c8w6w-b5afba61-beda-4b60-acdd-ff3e57352db6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Falda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playera.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playera1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shorts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vestido.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\615uWjG44KL._AC_SX679_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Short1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pantalon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playera generica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shortxd.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pantalon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camisa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sudadera.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playera mh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pantalon n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overoles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playera R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overoles1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shortn.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\615uWjG44KL._AC_SX679_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camisa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playera R1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playera generica1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Short11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerav.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suda.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playe.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suac.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pntc.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerav1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sudadera1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playe1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suac1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shorts1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
